@@ -13,7 +13,6 @@ import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 public class Main {
     public static void main(String[] args) {
 
-
         StandardServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
                 .configure()
                 .build();
@@ -28,9 +27,11 @@ public class Main {
             Transaction transaction = session.beginTransaction();
 
             Class.forName("com.mysql.cj.jdbc.Driver");
+//
+//            Word apple = new Word(1, "peach apple");
+//            session.save(apple);
+            session.createQuery("from Word", Word.class).list().forEach(System.out::println);
 
-            Word apple = new Word(1, "apple");
-            session.save(apple);
             transaction.commit();
         } catch (HibernateException | ClassNotFoundException e) {
             throw new RuntimeException(e);

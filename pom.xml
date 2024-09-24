@@ -14,6 +14,8 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
         <lobmok.version>1.18.34</lobmok.version>
+        <hibarnate.version>6.5.0.Final</hibarnate.version>
+
     </properties>
 
     <dependencies>
@@ -31,12 +33,11 @@
             <version>8.0.33</version>
         </dependency>
 
-
         <dependency>
 
             <groupId>org.hibernate.orm</groupId>
             <artifactId>hibernate-core</artifactId>
-            <version>6.6.1.Final</version>
+            <version>${hibarnate.version}</version>
         </dependency>
 
 

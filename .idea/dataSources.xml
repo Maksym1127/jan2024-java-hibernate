@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="jhibernate@localhost" uuid="494d05b5-0a64-4c2d-9f58-9cc609a18b65">
+    <data-source source="LOCAL" name="hibernate.cfg.xml/Hibernate" uuid="206ec4cc-539d-4aee-937e-12195166cb6f">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>Hibernate
+
+C:/Users/maksi/IdeaProjects/jan2024-java-hibernate/src/main/resources/hibernate.cfg.xml</remarks>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/jhibernate</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/shop</jdbc-url>
       <jdbc-additional-properties>
         <property name="com.intellij.clouds.kubernetes.db.host.port" />
         <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
@@ -13,7 +17,7 @@
       </jdbc-additional-properties>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="@localhost" uuid="6c15fd40-6d63-4608-9230-c3a47ebc2027">
+    <data-source source="LOCAL" name="@localhost" uuid="06b0aa5c-88f2-4489-aeb3-9210918ad2b6">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
